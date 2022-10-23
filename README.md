@@ -22,7 +22,7 @@ _dashbird_.
 
 Be sure you filled the config in `config.example.yml` and renamed it to `config.yml` run the following:
 
-```shell
+```sh
 $ docker build -t dashbird .
 $ docker run -p 3000:3000 dashbird
 ```
