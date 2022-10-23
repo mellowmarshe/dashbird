@@ -1,4 +1,4 @@
-# Dashbird
+# Dashbird (WIP)
 
 🐦 A simple and minimal dashboard for your homelab made with Chakra UI and NextJS!
 
