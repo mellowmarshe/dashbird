@@ -19,7 +19,7 @@ const Layout = ({ children, title = "Dashbird", description }: Props) => (
                 content="initial-scale=1.0, width=device-width"
             />
         </Head>
-        <Container maxW="1600px" mt="30px">
+        <Container maxW="1600px" mt="60px">
             <Box display="inline">
                 <Heading size="xl" textColor="orange.300">
                     {title}

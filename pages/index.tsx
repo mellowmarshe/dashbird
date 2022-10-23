@@ -39,7 +39,7 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <Flex
                 direction="row"
                 wrap="wrap"
-                maxH="sm"
+                maxH="35rem"
                 overflow="auto"
                 scrollBehavior="smooth"
             >

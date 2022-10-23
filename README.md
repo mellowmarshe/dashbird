@@ -2,19 +2,19 @@
 
 🐦 A simple and minimal dashboard for your homelab made with Chakra UI and NextJS!
 
+![Screenshot](./screenshot.png)
+
 ## Features
 
 -   💻 Simple configuration
 -   🚀 Easily selfhostable
 -   😍 Beautifully simplistic
-
-## Example
-
-![Screenshot](./screenshot.png)
+-   ☀️ Light and Dark theme
 
 ## Why
 
-I wanted to practice my frontend skills and this seemed like the perfect project as I wanted a dashboard for my homelab.
+I wanted to practice my frontend skills and this seemed like the perfect project as I wanted a dashboard for my homelab. I know there's plenty of dashboards but there's only one
+_dashbird_.
 
 ## How
 
