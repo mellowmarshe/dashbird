@@ -19,7 +19,8 @@ I wanted to practice my frontend skills and this seemed like the perfect project
 ## How
 
 🐋 Docker:
-After you filled the config in `config.example.yml` and renamed it to `config.yml` run the following:
+
+Be sure you filled the config in `config.example.yml` and renamed it to `config.yml` run the following:
 
 ```shell
 $ docker build -t dashbird .
