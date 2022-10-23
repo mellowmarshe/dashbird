@@ -2,13 +2,15 @@
 
 🐦 A simple and minimal dashboard for your homelab made with Chakra UI and NextJS!
 
-![Screenshot](./screenshot.png)
-
 ## Features
 
 -   💻 Simple configuration
 -   🚀 Easily selfhostable
 -   😍 Beautifully simplistic
+
+## Example
+
+![Screenshot](./screenshot.png)
 
 ## Why
 
