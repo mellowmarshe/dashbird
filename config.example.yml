@@ -1,0 +1,40 @@
+# The config file for Dashbird
+# This dashboard is meant to be minimal yet useful
+# This file should be located in the parent directory of the application
+# Any used icons should go in the `public/` directory
+# Items not marked as `optional` are required
+
+# The title for the page and title displayed on the page, optional
+title: Homelab
+# The description that shows below the title on the page, optional
+description: a novices journey
+
+# List of services that you'd like to display
+services:
+    # The name for the service
+    - name: PiHole
+      # Brief description of the service
+      description: Network-wide Ad Blocking
+      # The URL the service should point to when clicked, optional
+      url: "http://pihole.homelab/admin"
+      # The icon for the service, optional
+      # This should be located in `public/`
+      icon: /pihole.png
+
+# Links to show in the lower portion of the dashboard, optional
+links:
+    # The category for the links
+    - name: socials
+      links:
+          # The name for the link
+          - name: GitHub
+            # The link itself
+            url: https://github.com/Domterion
+          - name: Website
+            url: https://domm.me
+    - name: reddit
+      links:
+          - name: r/homelab
+            url: https://reddit.com/r/homelab
+          - name: r/selfhosted
+            url: https://reddit.com/r/selfhosted
