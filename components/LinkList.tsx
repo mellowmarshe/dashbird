@@ -13,7 +13,7 @@ type Link = {
 };
 
 const LinkList = ({ name, links }: Props) => (
-    <Box mr="16px">
+    <Box mr="20px">
         <Heading size="md" textColor="orange.300">
             {name}
         </Heading>

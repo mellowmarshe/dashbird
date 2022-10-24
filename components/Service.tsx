@@ -11,9 +11,7 @@ type Props = {
 
 const Service = ({ name, description, icon, url }: Props) => (
     <Box
-        mt="16px"
-        mr="16px"
-        // m="8px"
+        mt="8px"
         w={["100%", "8rem", "12rem", "18rem"]}
         borderWidth="1px"
         borderRadius="md"

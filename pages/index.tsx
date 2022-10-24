@@ -42,6 +42,7 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 maxH="35rem"
                 overflow="auto"
                 scrollBehavior="smooth"
+                gap="8px"
             >
                 {config.services.map((service, index) => (
                     <Service
