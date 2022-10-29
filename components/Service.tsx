@@ -39,7 +39,7 @@ const Service = ({ name, description, icon, url }: Props) => (
                     )}
                 </Heading>
 
-                <Text>{description}</Text>
+                <Text noOfLines={1}>{description}</Text>
             </Box>
         </Flex>
     </Box>
