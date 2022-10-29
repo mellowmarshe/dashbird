@@ -24,8 +24,12 @@ const Layout = ({ children, title = "Dashbird", description }: Props) => (
                 <Heading size="xl" textColor="orange.300">
                     {title}
                 </Heading>
-                —{" "}
-                {description != undefined && <Text as="i">{description}</Text>}
+
+                {description != undefined && (
+                    <>
+                        — <Text as="i">{description}</Text>
+                    </>
+                )}
             </Box>
             {children}
             <br />
